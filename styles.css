@@ -1,0 +1,75 @@
+.conainer
+{
+
+}
+.formcontainer
+{
+    margin-top: 10%;
+    margin-left: 40%;
+    border: groove black 1rem;
+    padding: 3%;
+    width: fit-content;
+    padding-top: 1%;
+}
+#registerbutton
+{
+    color: whitesmoke;
+    background-color: green;
+    font-weight: bold;
+    padding: 2%;
+    font-size: large;
+    border-radius: 10%;
+}
+.loginbutton
+{
+    color: whitesmoke;
+    background-color: orange;
+    font-weight: bold;
+    padding: 2%;
+    font-size: large;
+    border-radius: 10%;
+}
+.loginbutton:hover
+{
+    background-color: rgb(241, 188, 11);
+    cursor: pointer;
+}
+#registerbutton:hover
+{
+    background-color: rgb(17, 172, 17);
+    cursor: pointer;
+}
+#membersdetails
+{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width:100%;
+	/* margin: auto 15%; */
+    margin-right: 0;
+    
+}
+#membersdetails td, #membersdetails th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+#membersdetails tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+#membersdetails tr:hover {
+	background-color: #ddd;
+}
+
+#membersdetails th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	background-color: #4CAF50;
+	color: white;
+}
+
+caption
+{
+    font-weight: 600;
+    font-size: 2rem;
+}

@@ -1,0 +1,47 @@
+*
+{
+    margin: 0;
+}
+.header
+{
+    
+    height: 5rem;
+    background-color: rgb(23, 75, 7);
+    
+    border: groove rgb(17, 68, 4) 2px;
+    
+    
+}
+.menu
+{
+    margin: .1%;
+    margin-top: -2%;
+    float: right;
+    
+    
+}
+.menu button
+{
+    background-color: rgba(255, 123, 0, 0.911);
+    
+    color: white;
+    font-weight: bold;
+    padding: .8%;
+    margin-right: 0;
+    font-size: large;
+    border-radius: 10%;
+}
+.menu button:hover
+{
+    background-color: rgb(223, 152, 21);
+    cursor: pointer;
+}
+.header h1
+{
+    color: white;
+}
+.menu a
+{
+    color: white;
+}
+
