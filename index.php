@@ -34,12 +34,7 @@ require "connect.php";
     //echo "<br>";
     print_r($_SESSION);
 
-    if(isset($_POST['logoutbutton']))
-    {
-        session_destroy();
-        header('location: login.php');
-
-    }
+    
     
 
 ?>

@@ -55,9 +55,13 @@
 #membersdetails tr:nth-child(even) {
 	background-color: #f2f2f2;
 }
+#membersdetails tr {
+    text-align: center;
+}
 
 #membersdetails tr:hover {
 	background-color: #ddd;
+    
 }
 
 #membersdetails th {
@@ -72,4 +76,32 @@ caption
 {
     font-weight: 600;
     font-size: 2rem;
+}
+
+.profileContainer
+{
+    margin-top: 5%;
+    margin-left: 50%;
+    font:900;
+    font-size: larger;
+    text-align:justify;
+
+}
+h1
+{
+    font-family:'Times New Roman';
+}
+
+.settingscontainer
+{
+    float: left;
+
+    margin-top: -10%;
+    margin-left: 10%;
+    border-right: groove rgb(104, 184, 13) 0.4rem;
+    padding: 3%;
+    width: fit-content;
+    padding-top: 1%;
+    
+    
 }

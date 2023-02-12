@@ -29,7 +29,7 @@
                         $query = "select * from users";
 
                         /*
-                        Returns FALSE on failure.
+                        Returns FALSE on failure in running query (not on null or empty set).
                         For successful SELECT, SHOW, DESCRIBE or EXPLAIN
                         queries mysqli_query() will return a mysqli_result object.
                         For other successful queries mysqli_query() will return TRUE.
@@ -41,7 +41,7 @@
                                 echo "<tr>";
                                 echo "<td>".$user_row['id']."</td>";
                                 echo "<td>".$user_row['username']."</td>";
-                                echo "<td><a href = '#'>Profile</a></td>";
+                                echo "<td><a href = 'profile.php?id=$user_row[id]'>Profile</a></td>";
                                 echo "</tr>";
                             }
                         }
