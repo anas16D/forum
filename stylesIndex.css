@@ -44,4 +44,107 @@
 {
     color: white;
 }
+.postbutton
+{
+    background-color: darkgoldenrod;
+    font-size: large;
+    font-weight: bold;
+    color: wheat;
+    float: right;
+    margin-right: 10%;
+    
+}
 
+textarea
+{
+    resize: none;
+    border: .31rem groove;
+    border-radius: 2%;
+}
+
+.container
+{
+    padding: 5%;
+
+}
+.container form
+{
+    margin-left: 40% ;
+    margin-top: 0.01%;
+}
+form input
+{
+    border: .31rem groove;
+    border-radius: 10%;
+    
+
+}
+
+#questiontable
+{
+    
+    /* background-color: red; */
+
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width:100%;
+	margin: auto 1%;
+    margin-right: 0;
+}
+
+#questiontable td, #questiontable th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+#questiontable tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+#questiontable tr {
+    text-align: center;
+}
+
+#questiontable tr:hover {
+	background-color: #ddd;
+    
+}
+
+#membersdetails th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	background-color: #4CAF50;
+	color: white;
+}
+
+#postpagebutton
+{
+    margin-bottom: 3%;
+    padding: .3%;
+    border-radius: 8%;
+    border: groove rgb(255, 196, 0);
+}
+.postbutton:hover
+{
+
+    background-color: rgb(255, 174, 0);
+    cursor: pointer;
+    height: 2.3rem;
+    color: white;
+}
+
+#questionpageform textarea
+{
+   width: 50%;
+}
+#questionmetadata
+{
+    float: right;
+}
+
+.reply
+{
+    padding: 3%;
+    border-bottom: #174e18 .5rem groove;
+    margin: auto 10%;
+   
+}
