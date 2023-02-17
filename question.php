@@ -88,6 +88,7 @@
 
                                     if($result)
                                     {
+                                        echo "<br><h3>".$rowcount." Answers</h3><br><hr>";
                                        
 
                                        while( $user_row = mysqli_fetch_assoc($result) )
@@ -95,10 +96,12 @@
                                         
                                             echo "<div class ='reply'> ";
 
-                                            echo "<p>".$user_row['reply']."<br>";
-                                            echo $user_row['date']."  ";
-                                            echo $user_row['respondent']."  ";
-                                            echo $user_row['upvotes']."  ";
+                                            echo "<p>".$user_row['reply']."<br><br><br>";
+                                            echo "<span class = 'replymetadata'>";
+                                            echo "answered on ".$user_row['date']."  ";
+                                            echo "<span class = 'replymetadataright'> by ".$user_row['respondent']."  ";
+                                            echo $user_row['upvotes']."  </span>";
+                                            echo "</span>";
  
                                             
 

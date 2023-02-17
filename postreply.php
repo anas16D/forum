@@ -36,6 +36,10 @@ if( isset($_POST['replybutton']) )
         if($result)
         {
             echo "reply posted succesfully";
+
+            
+
+            $query = "update questions set replies";
         }
         else
         {

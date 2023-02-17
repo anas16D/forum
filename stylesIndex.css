@@ -146,5 +146,18 @@ form input
     padding: 3%;
     border-bottom: #174e18 .5rem groove;
     margin: auto 10%;
+    font-size: medium;
    
+}
+
+.replymetadata
+{
+    color: rgb(65, 59, 59);
+    font-size: small;
+
+}
+.replymetadataright
+{
+    float:right;
+    
 }
